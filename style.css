@@ -1,11 +1,11 @@
 body{
     margin: 0px;
-    background-color: #c0c0c0;
+    background-color: lightcyan;
 }
 
 h2{
 	color: #a52a2a;
-	font-family: Montserrat, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -21,7 +21,6 @@ h6{
 
 .header{
     background-color: #E3F9F4;
-    margin-top: 100px;
 }
 
 .soalogo{
@@ -38,6 +37,7 @@ h6{
 	color: white;
 	padding-top: 20px;
     padding-left: 56px;
+    margin-bottom: 0px;
     }
 
 .btn {
@@ -73,7 +73,6 @@ h6{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: grey; 
 }
 
@@ -94,6 +93,7 @@ h6{
 
 .searchbar{
 	margin-left: 600px;
+    padding: 5px;
 }
 
 .btnNavigation {
@@ -125,9 +125,23 @@ h6{
     text-decoration: none;
 }
 
+
+
+.top{
+    background-color: paleturquoise;
+
+}
+
+.h{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom:0px ;
+}
+
 .image {
     float: left;
-    margin: 20px;
+    margin: 30px;
+    margin-top: 10px;
     padding: 50px 70px 0px 100px;
     background-color: #fffaf0;
 
@@ -142,15 +156,18 @@ h6{
     cursor: pointer;
 }
 
-div.bottom{
+
+.bottom{
     margin: auto;
     padding-right: 100px;
     padding-left: 200px;
-    padding-top: 400px;
+    padding-top: 40px;
     padding-bottom: 300px;
+    background-color: hotpink;
 }
 
-div.lef{
+
+.lef{
     float: left;
     margin-left: 100px;
     margin-right: 0px;
@@ -160,3 +177,6 @@ div.lef{
     background-color: #808080;
 }
 
+.lef:hover{
+    background-color: white;
+    cursor: pointer;
